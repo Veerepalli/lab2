@@ -1,0 +1,15 @@
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true&libraries=weather"></script>
+<body onload="initialize()">
+
+    <div id="control">
+        <h5><center><i>Weather Report</i></center></h5>
+        <hr/>
+        <strong>Enter place:</strong>
+          <input type="text" name="start" id="start" value=""/>
+                <input type="submit" id="submit" value="submit" onclick="findWeather();"/>   
+        
+    </div>
+   <div id="temp"></div>
+    <div id="map-canvas" style="height:500px;width:100%;"></div>
+    
+  </body>
